@@ -1,4 +1,4 @@
-require 'spec/spec_helper'
+require 'spec_helper'
 
 describe Loops::CLI do
   it 'should include Loops::CLI::Options' do
