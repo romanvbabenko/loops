@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
   s.executables = ["loops", "loops-memory-stats"]
 
   s.add_development_dependency "rspec"
+  s.add_development_dependency "cover_me"
   s.add_development_dependency "autotest"
 
   #s.add_dependency ""
