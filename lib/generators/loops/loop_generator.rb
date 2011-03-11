@@ -4,7 +4,7 @@ module Loops
       source_root File.expand_path("../../templates", __FILE__)
 
       def create_loop_file
-        template "loop.rb", "app/loops/#{file_name}_loops.rb"
+        template "loop.rb", "app/loops/#{file_name}_loop.rb"
       end
     end
   end
