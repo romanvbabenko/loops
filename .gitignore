@@ -2,6 +2,8 @@
 !.gitignore
 !.gitmodule
 doc
+coverage
+coverage.data
 pkg
 spec/rails/logs
 spec/rails/tmp
