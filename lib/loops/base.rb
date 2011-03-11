@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Base class for all loop processes.
 #
 # To create a new loop just inherit this class and override the

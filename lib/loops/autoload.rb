@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loops
   # @private
   def self.__p(*path) File.join(Loops::LIB_ROOT, 'loops', *path) end

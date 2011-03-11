@@ -1,8 +1,8 @@
-.DS_Store
+.*
+!.gitignore
+!.gitmodule
 doc
 pkg
-.yardoc
-.idea
 spec/rails/logs
 spec/rails/tmp
 *.pid

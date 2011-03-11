@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Represents a Loops command.
 class Loops::Command
   # @return [Engine]

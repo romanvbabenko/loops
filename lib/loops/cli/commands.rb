@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loops
   class CLI
     # Contains methods related to Loops commands: retrieving, instantiating,

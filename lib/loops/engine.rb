@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Loops::Engine
   attr_reader :config
 

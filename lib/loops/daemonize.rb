@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loops
   module Daemonize
     def self.read_pid(pid_file)

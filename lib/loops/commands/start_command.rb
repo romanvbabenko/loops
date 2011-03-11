@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Loops::Commands::StartCommand < Loops::Command
   def execute
     # Pid file check

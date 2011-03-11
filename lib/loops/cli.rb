@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 %w(commands options).each { |p| require File.join(Loops::LIB_ROOT, 'loops/cli', p) }
 
 module Loops

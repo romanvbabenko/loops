@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Loops::Commands::DebugCommand < Loops::Command
   def execute
     Loops.logger.write_to_console = true

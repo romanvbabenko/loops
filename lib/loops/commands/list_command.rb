@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Loops::Commands::ListCommand < Loops::Command
   def execute
     puts 'Available loops:'

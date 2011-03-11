@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loops
   class Worker
     attr_reader :name

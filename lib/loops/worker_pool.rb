@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loops
   class WorkerPool
     attr_reader :name

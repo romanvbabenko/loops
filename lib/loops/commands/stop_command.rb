@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Loops::Commands::StopCommand < Loops::Command
   def execute
     STDOUT.sync = true

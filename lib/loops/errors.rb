@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loops::Errors
   Error = Class.new(RuntimeError)
 
