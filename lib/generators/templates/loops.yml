@@ -1,0 +1,30 @@
+# This file is a configuration file for loops rails gem
+#
+
+# This section is used to control loops manager
+global:
+  logger: stdout
+  poll_period: 5
+  workers_engine: fork
+
+# Each record in this section represents one loop which could be ran using loops plugin.
+# Each loop should have a file in app/loops directory with the same name as its config record.
+loops:
+  # Simple time printing loop
+  # simple:
+  #   type: simple
+  #   workers_number: 1
+  #   logger: default # or log/loops/simple.log
+
+  # You can run the same loop class with different configuration parameters by explicitly identifying the loop class to execute:
+  # hello:
+  #   type: simple
+  #   loop_name: some_module/my_worker
+  #   language: English
+
+  # salut:
+  #   type: simple
+  #   loop_name: some_module/my_worker
+  #   language: French
+
+
