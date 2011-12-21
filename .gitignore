@@ -1,6 +1,7 @@
 .*
 !.gitignore
 !.gitmodule
+!.gitkeeper
 doc
 coverage
 coverage.data
