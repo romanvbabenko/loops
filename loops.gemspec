@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.date = %q{2010-07-30}
   s.executables = ["loops", "loops-memory-stats"]
 
-  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec", '~> 2.7.0'
   s.add_development_dependency "cover_me"
   s.add_development_dependency "autotest"
 

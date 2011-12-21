@@ -33,6 +33,3 @@ CoverMe.config do |c|
   #   end
   # } (default)
 end
-
-
-

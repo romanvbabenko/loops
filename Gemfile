@@ -1,7 +1,8 @@
-# A sample Gemfile
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
 source "http://rubygems.org"
 
-# Specify your gem's dependencies in metric_sutra.gemspec
 gemspec
 
 gem "rails", "~> 3.0.4"
