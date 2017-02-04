@@ -1,10 +1,9 @@
 require 'spec_helper'
 
-describe Loops::Engine do
+xdescribe Loops::Engine do
   # You might have expected an instance of Array
   specify do
-    # @engine = Loops::Engine.new
-    # @engine.start_loops!(nil).should
-    pending "should raise human error message when loops array is nil"
+    @engine = Loops::Engine.new
+    @engine.start_loops!(nil).should
   end
 end

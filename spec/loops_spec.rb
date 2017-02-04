@@ -2,9 +2,11 @@
 require 'spec_helper'
 
 describe Loops do
+  let(:rails_root) { Pathname.new(File.expand_path(File.dirname(__FILE__))) }
+
   describe '.load_config' do
     before :each do
-      Loops.root = Rails.root
+      Loops.root = rails_root
       @engine = Loops::Engine.new
     end
 
@@ -15,7 +17,7 @@ describe Loops do
     end
 
     it 'should process ERB in config file' do
-      @engine.global_config['loops_root'].should == Rails.root.to_s
+      @engine.global_config['loops_root'].should == rails_root.to_s
     end
   end
 end
